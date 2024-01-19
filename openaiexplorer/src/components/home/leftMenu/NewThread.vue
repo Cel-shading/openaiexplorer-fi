@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    <h1>Agent Card</h1>
+    new conversation logo 
+    
+  
   </div>
 </template>
