@@ -4,18 +4,18 @@
 
 <template>
   <!-- rounded input search bar with magnifying glass inside  -->
-  <div class="flex items-center justify-center pl-2 pr-2">
-    <div class="flex items-center bg-white rounded-full shadow-xl">
+  <div class="flex items-center justify-center mb-5">
+    <div class="flex items-center bg-white rounded-full">
       <input
-        class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none"
+        class="rounded-l-full py-2 px-3 leading-tight focus:outline-none placeholder-neutral6"
         id="search"
         type="text"
         placeholder="Search"
       />
-      <div class="p-4">
-        <button class="bg-slate-500 text-white rounded-full p-1 hover:bg-blue-400 focus:outline-none w-8 h-8 flex items-center justify-center">
+      <div class="">
+        <button class="bg-dragon4 text-white rounded-full p-1 hover:bg-dragon2 focus:outline-none w-9 h-9 flex items-center justify-center">
           <svg
-            class="text-white h-4 w-4 fill-current"
+            class="text-white h-5 w-5 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

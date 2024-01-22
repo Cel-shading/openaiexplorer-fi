@@ -6,6 +6,7 @@ export const useThreadStore = defineStore('thread', () => {
     isHovered: false as boolean,
     isClicked: false as boolean,
     activeCard: null as string | null,
+    hoveredThread: null as string | null,
   })
 
   const setActiveCard = (card: string | null) => {
